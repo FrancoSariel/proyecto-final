@@ -1,0 +1,16 @@
+nav ul {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    list-style: none;
+
+    li {
+        a {
+            font-size: 20px;
+            text-align: center;
+            text-decoration: none;
+            color: white;
+        }
+    }
+}

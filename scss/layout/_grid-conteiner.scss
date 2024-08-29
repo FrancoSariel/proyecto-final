@@ -1,0 +1,25 @@
+.grid-conteiner {
+    display: grid;
+    gap: 20px;
+    grid-template:
+        "header"
+        "navbar"
+        "main";
+
+    .header {
+        grid-area: header;
+
+    }
+
+    .main {
+        grid-area: main;
+
+    }
+
+    .navbar {
+        grid-area: navbar;
+        background-color: black;
+        border-radius: 10px;
+    }
+
+}
