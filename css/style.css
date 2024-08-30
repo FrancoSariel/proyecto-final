@@ -87,4 +87,59 @@ nav ul li a {
   width: 100%;
   margin-top: 5px;
 }
+
+.row {
+  display: flex;
+  padding: 5px;
+  flex-wrap: wrap;
+}
+.row .column img {
+  width: 100%;
+}
+
+.column {
+  flex: 25%;
+  padding: 5px;
+}
+
+/*media queries*/
+@media (max-width: 800px) {
+  .row .column {
+    flex: 50%;
+  }
+  .row .column img {
+    width: 100%;
+  }
+}
+@media (max-width: 768px) {
+  .header img {
+    width: 150px;
+  }
+  .navbar li a {
+    font-size: 20px;
+  }
+  .row .column {
+    flex: 100%;
+  }
+}
+@media (min-width: 1024px) {
+  .navbar li a {
+    font-size: 40px;
+  }
+  .section-1 h1 {
+    font-size: 600px;
+  }
+  .section-1 p {
+    font-size: 45px;
+  }
+}
+@media (max-width: 1440px) {
+  .header img {
+    width: 100px;
+  }
+  nav li a {
+    font-size: 150px;
+  }
+}
+
 /*# sourceMappingURL=style.css.map */

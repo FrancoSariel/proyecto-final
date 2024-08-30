@@ -117,12 +117,17 @@ nav li a {
     width: 100%;
     margin-top: 5px;
 }
-@media(max-width: 320px){
+@media(min-width: 320px){
     .row .column img{
         width: 100px;
     }
     .column{
         flex: 100%;
         
+    }
+}
+@media(max-width: 1440px){
+    .header img{
+        width: 100px;
     }
 }
